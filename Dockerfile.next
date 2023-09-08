@@ -1,7 +1,5 @@
 FROM alpine:3.18.3
 
-ENV PNPM_VERSION=v7.15.0
-
 RUN addgroup -g 10001 \
              -S nonroot && \
     adduser  -u 10000 \
